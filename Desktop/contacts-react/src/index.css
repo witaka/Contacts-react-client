@@ -1,0 +1,253 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5px;
+    width: 95%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ContactShowPage{
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  border: none;  
+}
+
+ContactShowPage ul li{
+  border: none;  
+}
+
+.Contact {
+  padding-bottom: 1.5rem;
+  position: relative;
+  font-size: 14pt;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  
+}
+
+
+
+.Contact  ul:first-child {
+  list-style-type: none;
+  text-align: right;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Contact ul{
+  list-style-type: none;
+  text-align: right;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.Contact_link{
+  text-decoration: none;
+  font-size: 17pt;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 4% 0 3% 0;
+  
+}
+
+.Contact ul, ul li{
+  height: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+  border-radius: 15px;
+  border: 2px solid black;
+  position: relative;  
+  text-align: center;
+  padding-left: auto;
+  
+}
+
+.PhoneList li{
+  height: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  position: relative;  
+  text-align: center;
+  padding-left: auto;
+  
+}
+
+.PhoneList li {
+  height: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  position: relative;  
+  text-align: center;
+  padding-left: auto;
+  
+}
+
+.phoneForm input, textarea  {
+  width: 100pt;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  float: left;
+  margin: 0;
+}
+
+.PhoneDetails .PhoneForm{
+  float: left;
+  width: 50%;
+}
+
+.PhoneDetails{
+   
+}
+
+
+.NavBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  animation-name: animation;
+  animation-duration: 100s;
+  /* background-color: #3f51b5; */
+  background: linear-gradient(to right, #3f51b5, #2196f3);
+
+  padding: 0 5px;
+}
+
+.NavBar a {
+  color: inherit;
+  text-decoration: none;
+
+  transition: 0.5s color 0s, 0.5s background-color 0s;
+}
+
+.NavBar a.active {
+  color: darkblue;
+  background-color: lightblue;
+}
+
+.NavBar > * {
+  padding: 7.5px 5px;
+}
+
+.NavBar > *:first-child {
+  margin-left: auto;
+}
+
+.Nav-brand-logo {
+  display: block;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 176px;
+  text-indent: -1000%;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+
+@keyframes animation {
+  from {
+    background: linear-gradient(to right, #2196f3);
+  }
+  to {
+    background: linear-gradient(to right, #2196f3, #3f51b5);
+  }
+  from {
+    background: linear-gradient(to right, #3f51b5, #2196f3);
+  }
+  to {
+    background: linear-gradient(to right, #2196f3, #3f51b5);
+  }
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+.plate {
+  flex-grow: 5;
+  float: left;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
+    3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff, 6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin: 0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin: 0;
+}
+.script span {
+  padding: 0 0.3em;
+}
+
+img {
+  max-width: 500px;
+}
+
+.infoWindow a {
+  text-decoration: none;
+  color: black;
+}
